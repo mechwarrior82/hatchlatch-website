@@ -1,0 +1,6 @@
+[submodule "themes/hugo-assembly"]
+	path = themes/hugo-assembly
+	url = https://github.com/salsysd/hugo-assembly.git
+[submodule "themes/vex-hugo"]
+	path = themes/vex-hugo
+	url = https://github.com/themefisher/vex-hugo.git
