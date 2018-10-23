@@ -1,0 +1,140 @@
+baseurl = ""
+languageCode = "en"
+title = "HatchLatch®"
+theme = "vex-hugo"
+
+[params]
+  description = ""
+
+  # Put your custom stylesheets and scripts
+  custom_stylesheets = []
+  custom_scripts = []
+
+  # Additional meta
+  [[params.meta]]
+    name = ""
+    description = ""
+
+  # Navigation bar informations
+  [params.navbar]
+    logo = "HatchLatch®"
+    [[params.navbar.menu]]
+      link = "#"
+      text = "HOME"
+    [[params.navbar.menu]]
+      link = "#about"
+      text = "ABOUT"
+    [[params.navbar.menu]]
+      link = "#service"
+      text = "SERVICES"
+    [[params.navbar.menu]]
+      link = "#contact"
+      text = "CONTACT"
+
+  # Header
+  [params.header]
+    title = "HatchLatch® IV DOOR RESTRICTOR"
+    text = "Creating a safer passenger environment—and reducing your labor costs—just got a little easier. Our new and improved HatchLatch IV—the leading choice in electronic door restrictors—now requires only one optical sensor. This new design significantly reduces installation time and complexity, while an improved solenoid control assembly boosts overall performance and reliability."
+    [params.header.image]
+      path = "images/A835A4.jpg"
+      alt = "Hatch Latch"
+    [params.header.button]
+      link = "https://shop.adamselevator.com/"
+      text = "Buy Now at ADAMS Elevator"
+
+  # Features
+  [params.features]
+    title = "Our Core Features"
+    [params.features.image]
+      path = "images/A835A4.jpg"
+      alt = "Watch"
+    # Menu at the left of the image
+    [[params.features.left]]
+      icon = "tf-ion-ios-checkmark-outline"
+      title = "Auto Sensing"
+      text = "The power supply with 4-hour battery back-up has plunger-sensing circuitry that alerts the mechanic when HatchLatch is disabled."
+    [[params.features.left]]
+      icon = "tf-ion-ios-checkmark-outline"
+      title = "Compatiable"
+      text = "HatchLatch works with any door operator."
+    [[params.features.left]]
+      icon = "tf-ion-ios-checkmark-outline"
+      title = "Certified"
+      text = "HatchLatch is patented and CSA approved."
+    # Menu at the right of the image
+    [[params.features.right]]
+      icon = "tf-ion-ios-checkmark-outline"
+      title = "Smooth Touch"
+      text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+    [[params.features.right]]
+      icon = "tf-ion-ios-checkmark-outline"
+      title = "Elegant Design"
+      text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+    [[params.features.right]]
+      icon = "tf-ion-ios-checkmark-outline"
+      title = "Easy Pricing"
+      text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+
+  [params.promo]
+    title = "Safety simplified. Introducing the new, easier-to-install HatchLatch®IV."
+    text = "Creating a safer passenger environment—and reducing your labor costs—just got a little easier. Our new and improved HatchLatch IV—the leading choice in electronic door restrictors—now requires only one optical sensor. This new design significantly reduces installation time and complexity, while an improved solenoid control assembly boosts overall performance and reliability. "
+    [params.promo.image]
+      path = "images/A835A4.jpg"
+      alt = "Watch"
+
+  [params.feature_list]
+    title = "How it works:"
+    [[params.feature_list.items]]
+      image = "images/A835A4.jpg"
+      title = ""
+      text = "Technicians simply install the solenoid assembly with magnetic sensor and mount the blocking bracket with magnet (4 inches away from the sensor for side-opening doors; 2 inches for center-opening doors)."
+      button_link = ""
+      button_text = "Check Features"
+    [[params.feature_list.items]]
+      image = "images/A835A4.jpg"
+      title = ""
+      text = "The control circuit detects door location using the magnetic sensor. Only if the car is in a safe door zone (DZ) – as sensed by the optical sensor – will the solenoid engage and allow the doors to open."
+      button_link = ""
+      button_text = "Check Features"
+    [[params.feature_list.items]]
+      image = "images/A835A4.jpg"
+      title = ""
+      text = "If the car is outside the door zone, the solenoid plunger will prevent the doors from opening. "
+      button_link = ""
+      button_text = "Check Features"
+
+  [params.gallery]
+    title = "Checkout some amazing Shorts"
+    # Set the image directory to use as base
+    directory = "images/showcase"
+    # Set the images to show in the gallery
+    images = ["showcase-1.png", "showcase-2.png", "showcase-3.png", "showcase-4.png", "showcase-5.png", "showcase-6.png", "showcase-7.png", "showcase-8.png"]
+
+  [params.call_to_action]
+    title = "Get Product Updates"
+    text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
+    placeholder = "Your Email Address Here"
+    button_text = "Subscribe"
+
+  [params.testimonials]
+    title = "Watch Review"
+    [[params.testimonials.blocks]]
+      text = "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+      name = "Jonathon Andrew"
+      position = "CEO, Themefisher"
+      image = "images/avater.png"
+    [[params.testimonials.blocks]]
+      text = "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+      name = "Jonathon Andrew"
+      position = "CEO, Themefisher"
+      image = "images/avater.png"
+    [[params.testimonials.blocks]]
+      text = "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+      name = "Jonathon Andrew"
+      position = "CEO, Themefisher"
+      image = "images/avater.png"
+    [params.testimonials.button]
+      link = ""
+      text = "Grab You Product Now"
+
+  # Footer uses navbar data
