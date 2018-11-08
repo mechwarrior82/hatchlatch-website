@@ -1,0 +1,20 @@
+HatchLatch® IV DOOR RESTRICTOR
+
+Creating a safer passenger environment—and reducing your labor costs—just got a little easier. Our new and improved HatchLatch IV—the leading choice in electronic door restrictors—now requires only one optical sensor. This new design significantly reduces installation time and complexity, while an improved solenoid control assembly boosts overall performance and reliability.  
+
+Technicians simply install the solenoid assembly with magnetic sensor and mount the blocking bracket with magnet (4 inches away from the sensor for side-opening doors; 2 inches for center-opening doors).
+
+The control circuit detects door location using the magnetic sensor. Only if the car is in a safe door zone (DZ) – as sensed by the optical sensor – will the solenoid engage and allow the doors to open.
+
+If the car is outside the door zone, the solenoid plunger will prevent the doors from opening. 
+
+Safety simplified. Introducing the new, easierto-install HatchLatch®IV.
+
+
+Creating a safer passenger environment—and reducing your labor costs—just got a little easier. Our new and improved HatchLatch IV—the leading choice in electronic door restrictors—now requires only one optical sensor. This new design significantly reduces installation time and complexity, while an improved solenoid control assembly boosts overall performance and reliability. 
+
+
+As with previous models, the HatchLatch IV offers superior protection by ensuring that the elevator cab doors stay shut and locked between landing zones, keeping passengers safe in the event of a stall or breakdown.
+
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3353.8091112952725!2d-97.21680218438937!3d32.79732038096582!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864e79718cc47a3f%3A0xb53bdd1d4d6b36df!2sAdvanced+Microcontrols+Inc!5e0!3m2!1sen!2sus!4v1541460672449" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>

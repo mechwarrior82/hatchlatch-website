@@ -1,0 +1,17 @@
+enable  : true
+title   : Downloads
+subtitle: Click on links below to download related product manual.
+image   : images/download.svg
+serviceItem :
+  - icon  : ion-ios-paper-outline
+    title : HatchLatch Manual
+    link: ../../manuals/HL Man A835A4_8x11.pdf
+    description: >
+      Hatch Latch® Model A835A4 Installation and Service Manual
+
+  - icon  : ion-ios-paper-outline
+    title : Mag Sensor Assembly
+    link: ../../manuals/mag_sensor_coil_assy.pdf
+    description: >
+      Mag Sensor A835MAG Assembly/Installation instructions.
+

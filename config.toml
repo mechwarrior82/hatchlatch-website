@@ -1,140 +1,103 @@
-baseurl = ""
-languageCode = "en"
+baseURL = ""
+languageCode = "en-us"
 title = "HatchLatch®"
-theme = "vex-hugo"
+theme = "timer-hugo"
 
+# We Used Ionicons Icon font for Icon, for more details check this link - https://ionicons.com/v2/
+
+# Site Menus
+[menu]
+    # Navbar Menus
+    [[menu.nav]]
+        name    = "FAQ"
+        url     = "/faq"
+        weight  = 2
+    [[menu.nav]]
+        name    = "Downloads"
+        url     = "/downloads"
+        weight  = 3        
+    [[menu.nav]]
+        name    = "Contact"
+        url     = "/contact"
+        weight  = 4
+    [[menu.nav]]
+        name    = "About"
+        url     = "/about"
+        weight  = 5
+
+# Site Params
 [params]
-  description = ""
+    home = "Home"
+    dateFormat = "6 January 2006"
+    #
+    # You can use either an image or text as logo.
+    # To use an image use 'logo' (logo itself) and 'logo_alt' (alternative text if image cannot displayed)
+    # To use text as logo use 'logo_text'
+    # logo = "images/logo.png"
+    # logo_alt = "logo"
+    logo_text = "HatchLatch®"
 
-  # Put your custom stylesheets and scripts
-  custom_stylesheets = []
-  custom_scripts = []
+    # Banner Section
+    [params.banner]
+        enable  = true
+        bgImage = "images/hatch_latch_IV_big.jpg"
+        heading = "HatchLatch® IV DOOR RESTRICTOR"
+        description = "Creating a safer passenger environment—and reducing your labor costs—just got a little easier."
+        btn     = true
+        btnText = "Buy Now at ADAMS Elevator"
+        btnURL  = "https://shop.adamselevator.com/"
+        [[params.banner.flipText]]
+            title   = "Safe"
+        [[params.banner.flipText]]
+            title   = "Reliable"
+        [[params.banner.flipText]]
+            title   = "Intelligent"
 
-  # Additional meta
-  [[params.meta]]
-    name = ""
-    description = ""
+    # Homepage About Section
+    [params.about]
+        enable  = true
+        title   = "Safety Simplified. Introducing The New, Easier-To-Install HatchLatch®IV."
+        content = "Our new and improved HatchLatch® IV—the leading choice in electronic door restrictors—now requires only one optical sensor. This new design significantly reduces installation time and complexity, while an improved solenoid control assembly boosts overall performance and reliability."
+        image   = "images/A835A4.jpg"
 
-  # Navigation bar informations
-  [params.navbar]
-    logo = "HatchLatch®"
-    [[params.navbar.menu]]
-      link = "#"
-      text = "HOME"
-    [[params.navbar.menu]]
-      link = "#about"
-      text = "ABOUT"
-    [[params.navbar.menu]]
-      link = "#service"
-      text = "SERVICES"
-    [[params.navbar.menu]]
-      link = "#contact"
-      text = "CONTACT"
+    # Call to Action
+    [params.cta]
+        enable  = true
+        title   = "HAVE QUESTIONS ?"
+        content = "Check out our frequently asked questions for the answers to your questions."
+        btnText = "F.A.Q."
+        btnURL  = "/faq"
 
-  # Header
-  [params.header]
-    title = "HatchLatch® IV DOOR RESTRICTOR"
-    text = "Creating a safer passenger environment—and reducing your labor costs—just got a little easier. Our new and improved HatchLatch IV—the leading choice in electronic door restrictors—now requires only one optical sensor. This new design significantly reduces installation time and complexity, while an improved solenoid control assembly boosts overall performance and reliability."
-    [params.header.image]
-      path = "images/A835A4.jpg"
-      alt = "Hatch Latch"
-    [params.header.button]
-      link = "https://shop.adamselevator.com/"
-      text = "Buy Now at ADAMS Elevator"
+    # Portfolio Section On Homepage
+    [params.portfolio]
+        enable  = false
+        title   = "Latest Works"
+        subtitle= ""
 
-  # Features
-  [params.features]
-    title = "Our Core Features"
-    [params.features.image]
-      path = "images/A835A4.jpg"
-      alt = "Watch"
-    # Menu at the left of the image
-    [[params.features.left]]
-      icon = "tf-ion-ios-checkmark-outline"
-      title = "Auto Sensing"
-      text = "The power supply with 4-hour battery back-up has plunger-sensing circuitry that alerts the mechanic when HatchLatch is disabled."
-    [[params.features.left]]
-      icon = "tf-ion-ios-checkmark-outline"
-      title = "Compatiable"
-      text = "HatchLatch works with any door operator."
-    [[params.features.left]]
-      icon = "tf-ion-ios-checkmark-outline"
-      title = "Certified"
-      text = "HatchLatch is patented and CSA approved."
-    # Menu at the right of the image
-    [[params.features.right]]
-      icon = "tf-ion-ios-checkmark-outline"
-      title = "Smooth Touch"
-      text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
-    [[params.features.right]]
-      icon = "tf-ion-ios-checkmark-outline"
-      title = "Elegant Design"
-      text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
-    [[params.features.right]]
-      icon = "tf-ion-ios-checkmark-outline"
-      title = "Easy Pricing"
-      text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+    # Feature Product Section
+    [params.featureProduct]
+        enable  = false
+        title   = "SOME OF OUR FEATURES WORKS"
+        subtitle= ""
 
-  [params.promo]
-    title = "Safety simplified. Introducing the new, easier-to-install HatchLatch®IV."
-    text = "Creating a safer passenger environment—and reducing your labor costs—just got a little easier. Our new and improved HatchLatch IV—the leading choice in electronic door restrictors—now requires only one optical sensor. This new design significantly reduces installation time and complexity, while an improved solenoid control assembly boosts overall performance and reliability. "
-    [params.promo.image]
-      path = "images/A835A4.jpg"
-      alt = "Watch"
-
-  [params.feature_list]
-    title = "How it works:"
-    [[params.feature_list.items]]
-      image = "images/A835A4.jpg"
-      title = ""
-      text = "Technicians simply install the solenoid assembly with magnetic sensor and mount the blocking bracket with magnet (4 inches away from the sensor for side-opening doors; 2 inches for center-opening doors)."
-      button_link = ""
-      button_text = "Check Features"
-    [[params.feature_list.items]]
-      image = "images/A835A4.jpg"
-      title = ""
-      text = "The control circuit detects door location using the magnetic sensor. Only if the car is in a safe door zone (DZ) – as sensed by the optical sensor – will the solenoid engage and allow the doors to open."
-      button_link = ""
-      button_text = "Check Features"
-    [[params.feature_list.items]]
-      image = "images/A835A4.jpg"
-      title = ""
-      text = "If the car is outside the door zone, the solenoid plunger will prevent the doors from opening. "
-      button_link = ""
-      button_text = "Check Features"
-
-  [params.gallery]
-    title = "Checkout some amazing Shorts"
-    # Set the image directory to use as base
-    directory = "images/showcase"
-    # Set the images to show in the gallery
-    images = ["showcase-1.png", "showcase-2.png", "showcase-3.png", "showcase-4.png", "showcase-5.png", "showcase-6.png", "showcase-7.png", "showcase-8.png"]
-
-  [params.call_to_action]
-    title = "Get Product Updates"
-    text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
-    placeholder = "Your Email Address Here"
-    button_text = "Subscribe"
-
-  [params.testimonials]
-    title = "Watch Review"
-    [[params.testimonials.blocks]]
-      text = "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
-      name = "Jonathon Andrew"
-      position = "CEO, Themefisher"
-      image = "images/avater.png"
-    [[params.testimonials.blocks]]
-      text = "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
-      name = "Jonathon Andrew"
-      position = "CEO, Themefisher"
-      image = "images/avater.png"
-    [[params.testimonials.blocks]]
-      text = "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
-      name = "Jonathon Andrew"
-      position = "CEO, Themefisher"
-      image = "images/avater.png"
-    [params.testimonials.button]
-      link = ""
-      text = "Grab You Product Now"
-
-  # Footer uses navbar data
+    # Footer section
+    [params.footer]
+        customized  = true # Set this variable to true if you customized the design.
+        copyright_owner = "Advanced Microcontrols Inc"
+        copyright_since = "2018"
+        # [[params.footer.social]]
+        #     icon = "ion-social-facebook"
+        #     link = "https://facebook.com"
+        # [[params.footer.social]]
+        #     icon = "ion-social-twitter"
+        #     link = "https://twitter.com"
+        # [[params.footer.social]]
+        #     icon = "ion-social-linkedin"
+        #     link = "https://linkedin.com"
+        # [[params.footer.social]]
+        #     icon = "ion-social-googleplus"
+        #     link = "https://googleplus.com"
+        # [[params.footer.social]]
+        #     icon = "ion-social-github"
+        #     link = "https://github.com"
+    
